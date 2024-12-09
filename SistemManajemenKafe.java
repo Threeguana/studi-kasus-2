@@ -21,6 +21,7 @@ public class SistemManajemenKafe {
         }
     }
 
+    // kode menambahkan pesanan
     public static void tambahPesanan() {
         System.out.print("\nMasukkan nama pelanggan: ");
         String namaPelanggan = sc.nextLine();
@@ -76,6 +77,7 @@ public class SistemManajemenKafe {
         }
     }
 
+    // kode menampilkan pesanan
     public static void tampilkanDaftarPesanan() {
         if (jmlPesanan == 0) {
             System.out.println("\nBelum ada pesanan.");
